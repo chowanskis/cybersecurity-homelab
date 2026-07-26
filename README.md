@@ -1,11 +1,8 @@
-# cybersecurity-homelab
-Personal cybersecurity homelab documentation featuring network architecture, SIEM deployment, threat detection, penetration testing, automation, and hands-on security projects.
-
 # Cybersecurity Homelab
 Welcome to my personal cybersecurity homelab. 
+Personal cybersecurity homelab documentation featuring network architecture, SIEM deployment, threat detection, penetration testing, automation, and hands-on security projects.
 
 # Introduction
-
 This repository documents the design, implementation, and continuous evolution of my cybersecurity homelab. The project serves as a technical portfolio, demonstrating practical experience in designing, deploying, securing, monitoring, and testing enterprise-inspired IT and Operational Technology (OT) environments.
 
 Although built on compact, energy-efficient enterprise thin clients, the laboratory is designed to simulate the architecture of a much larger organization. The infrastructure combines physical hardware, virtualization platforms, and cybersecurity tools to recreate realistic enterprise scenarios for both defensive and offensive security exercises.
@@ -15,12 +12,20 @@ The lab is being expanded incrementally with additional physical systems that wi
 Current and planned technologies include:
 
 - HP Thin Clients as the primary laboratory infrastructure
+- PC DELL Optiplex 3020
+- PC DELL Optiplex 3080
+- PC DELL Optiplex 7020
 - Physical servers and workstations
-- Microsoft Hyper-V
-- VMware ESXi
-- Veeam Backup & Replication
-- Debian Linux
+- Microsoft Hyper-V 2012R2, 2016
+- VMware ESXi 6.7 7.0 8.0
+- Veeam Backup & Replication 12, 13
+- Debian Linux 13
+- Fedora Linux 44
+- FreeBSD
 - Docker
+- pfSesnse
+- Zabbix
+- OCS Inventory
 - Wazuh SIEM
 - Suricata IDS
 - Kali Linux
@@ -28,6 +33,8 @@ Current and planned technologies include:
 - Wireshark
 - Aruba switching
 - FortiGate firewall
+- MikroTik
+- Barracuda F80 NGF
 
 The objective is to recreate, within a small and affordable laboratory, a realistic enterprise-grade infrastructure that supports networking, virtualization, system administration, backup and recovery, threat detection, vulnerability assessment, penetration testing, and incident response. Every stage of the project is documented to provide a transparent record of the design decisions, implementation process, challenges encountered, and lessons learned.
 
