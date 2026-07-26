@@ -2,8 +2,7 @@
 Personal cybersecurity homelab documentation featuring network architecture, SIEM deployment, threat detection, penetration testing, automation, and hands-on security projects.
 
 # Cybersecurity Homelab
-
-Welcome to my personal cybersecurity homelab.
+Welcome to my personal cybersecurity homelab. 
 
 # Introduction
 
@@ -15,22 +14,27 @@ The lab is being expanded incrementally with additional physical systems that wi
 
 Current and planned technologies include:
 
-* HP Thin Clients as the primary laboratory infrastructure
-* Physical servers and workstations
-* Microsoft Hyper-V
-* VMware ESXi
-* Veeam Backup & Replication
-* Debian Linux
-* Docker
-* Wazuh SIEM
-* Suricata IDS
-* Kali Linux
-* Metasploitable 2 & 3
-* Wireshark
-* Aruba switching
-* FortiGate firewall
+- HP Thin Clients as the primary laboratory infrastructure
+- Physical servers and workstations
+- Microsoft Hyper-V
+- VMware ESXi
+- Veeam Backup & Replication
+- Debian Linux
+- Docker
+- Wazuh SIEM
+- Suricata IDS
+- Kali Linux
+- Metasploitable 2 & 3
+- Wireshark
+- Aruba switching
+- FortiGate firewall
 
 The objective is to recreate, within a small and affordable laboratory, a realistic enterprise-grade infrastructure that supports networking, virtualization, system administration, backup and recovery, threat detection, vulnerability assessment, penetration testing, and incident response. Every stage of the project is documented to provide a transparent record of the design decisions, implementation process, challenges encountered, and lessons learned.
+
+## Project Timeline
+This is a long-term project that is being developed incrementally. New infrastructure components, technologies, documentation, and practical exercises will be added over time as the laboratory evolves.
+
+The project is planned to reach its initial completion milestone in **December 2028**, resulting in a fully documented enterprise-inspired IT/OT cybersecurity laboratory. While this milestone marks the completion of the planned architecture, the repository will continue to evolve with new technologies, experiments, and security research.
 
 ## Objectives
 - Build a realistic enterprise network
