@@ -4,3 +4,6 @@ I expected the thin client to perform unsatisfactorily, as the processor isn't t
 The computer name doesn't match; I didn't realize when I made the mistake. TC is called Fedora, and I'll have to support it.
 
 Performance is quite satisfactory. I'm including a few screenshots showing the update process and the thin client's performance statistics.
+
+I don't have ssh yet and the first inconvenience I noticed is the lack of mouse support when I insert a pendrive into the USB C port.
+However, when I plug the same drive into the USB port on the back of the TC, the mouse works. 
