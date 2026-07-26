@@ -24,6 +24,7 @@ The homelab is built using energy-efficient enterprise thin clients that provide
 - Gigabyte Monitor 32"
 - LENOVO Legion 27QD-10 27
 
+- Raspberry pi 3b+
 - HP Thin Client t530
 - HP Thin Client t630
 - HP Thin Client t640
