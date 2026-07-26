@@ -1,0 +1,6 @@
+2026-07-26
+
+I expected the thin client to perform unsatisfactorily, as the processor isn't the most efficient, but I was wrong. 8GB of RAM does its job. 
+The computer name doesn't match; I didn't realize when I made the mistake. TC is called Fedora, and I'll have to support it.
+
+Performance is quite satisfactory. I'm including a few screenshots showing the update process and the thin client's performance statistics.
