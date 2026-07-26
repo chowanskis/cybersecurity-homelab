@@ -1,8 +1,12 @@
-HP Thin Client T530.
+HP Thin Client T530.                                                  2026-07-26
 --------------------------------------------------------------------------------
 AMD Embedded G-Series GX-215JJ Radeon R2e
 Processor Speed 1500 MHZ
 Memory Size 8192 MB DDR4 / 1866 MHz / Singe CHannel
+HDD SSD M2: 
+
+Network : DHCP
+Vlan id : 25
 
 Fedora Linux | The Fedora Project https://fedoraproject.org/
 
