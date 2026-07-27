@@ -1,0 +1,31 @@
+My first problem is that I can't install the software. I can't install anything.
+
+  1  apt get update
+  2  apt update
+  3  ls
+  4  df -h
+  5  clear
+  
+  16  apt install mc
+  17  whoami
+  24  shutdown
+   
+  26  cat /etc/os-release
+  27  cat /etc/apt/sources.list.d/*.sources
+  
+  28  cd /etc/
+  31  cd apt
+  32  ls
+  33  cat sources.list
+  
+  34  nano /etc/apt/sources.list
+
+  Add this information. 
+  --------------------------
+  deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware
+  deb http://deb.debian.org/debian trixie-updates main contrib non-free non-free-firmware
+  deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
+  
+  35  apt update 
+  36  clear
+  37  history
