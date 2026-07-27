@@ -23,4 +23,5 @@ Hard Disk: 16 GB SATA Flash Drive
    The system will be installed on a single partition. Please note that this technique is not recommended.
    I chose it due to the disk's size – only 32 GB.
 
-3. 
+3. SSH Server
+4. Primary system tools
