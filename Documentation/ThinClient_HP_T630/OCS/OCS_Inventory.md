@@ -25,3 +25,5 @@ Hard Disk: 16 GB SATA Flash Drive
 
 3. SSH Server
 4. Primary system tools
+
+Restart and testing instalation.
