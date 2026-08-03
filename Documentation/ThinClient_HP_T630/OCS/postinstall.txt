@@ -43,7 +43,7 @@ Go to the OCS webpage and make install OCS aplication:
 https://documentation.ocsinventory-ng.org/quickstart-guides/for-administrators/installation-essentials
 
 curl -fsSL https://deb-v3.ocsinventory-ng.org/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/ocs-archive-keyring.gpg
-echo "deb https://deb-v3.ocsinventory-ng.org/ <distribution_codename main" | sudo tee /etc/apt/sources.list.d/ocsinventory.list
+echo "deb https://deb-v3.ocsinventory-ng.org/ <distribution_codename> main" | sudo tee /etc/apt/sources.list.d/ocsinventory.list
 sudo apt update
 
 I do not have curl installed: 
@@ -55,5 +55,16 @@ root@ocs:~# apt install curl
 
 I do not have gpg installed:
 root@ocs:~# apt install gpg
+
+Import gpg keys:
+curl -fsSL https://deb-v3.ocsinventory-ng.org/repo-signing-key.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/ocs-archive-keyring.gpg
+
+Adding repository:
+echo "deb https://deb-v3.ocsinventory-ng.org/ trixie main" | tee /etc/apt/sources.list.d/ocsinventory.list
+
+Update:
+apt update
+
+
 
 
