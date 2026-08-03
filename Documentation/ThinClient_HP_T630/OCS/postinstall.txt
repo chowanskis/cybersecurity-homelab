@@ -29,3 +29,28 @@ My first problem is that I can't install the software. I can't install anything.
   35  apt update 
   36  clear
   37  history
+
+2026-08-03 
+
+
+I have to chceck codenemae of my distrybution:
+
+root@ocs:~# lsb_release -c
+Codename:	trixie
+
+Go to the OCS webpage and make install OCS aplication:
+
+https://documentation.ocsinventory-ng.org/quickstart-guides/for-administrators/installation-essentials
+
+curl -fsSL https://deb-v3.ocsinventory-ng.org/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/ocs-archive-keyring.gpg
+echo "deb https://deb-v3.ocsinventory-ng.org/ <distribution_codename main" | sudo tee /etc/apt/sources.list.d/ocsinventory.list
+sudo apt update
+
+I do not have curl installed: 
+root@ocs:~# curl -fsSL https://deb-v3.ocsinventory-ng.org/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/ocs-archive-keyring.gpg
+-bash: curl: nie znaleziono polecenia
+-bash: sudo: nie znaleziono polecenia
+
+root@ocs:~# apt install curl
+
+
