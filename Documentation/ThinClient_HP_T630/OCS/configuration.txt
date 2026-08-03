@@ -30,3 +30,20 @@ Error during database migrations, please check /tmp/ocsinventory-backend-configu
 root@ocs:/usr/share/ocsinventory-backend/tools# 
 
 I have got some problem. 
+
+The problem with owner schema i resolved. 
+
+Database migrations applied successfully!
+Restarting uWSGI and Nginx services...
+uWSGI service restarted successfully.
+Nginx service restarted successfully.
+
+For more information, refer to /tmp/ocsinventory-backend-configuration.log for the database migration logs.
+
+===========================================================
+=                                                         =
+=      OCS Inventory Backend successfully configured      =
+=                                                         =
+===========================================================
+
+root@ocs:/usr/share/ocsinventory-backend/tools# 
