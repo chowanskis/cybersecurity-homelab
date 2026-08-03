@@ -33,3 +33,14 @@ Podsumowanie:
   Wymagane miejsce: 369 MB / 26,4 GB dostępnych
 
 YES
+
+
+Restarting UWSGI and Nginx services...
+OCS Inventory Backend successfully installed.
+=================================================================================================================================
+=                                                                                                                               =
+= Please run the script '/usr/share/ocsinventory-backend/tools/configure-ocsinventory-backend.sh' to configure the application. =
+=                                                                                                                               =
+=================================================================================================================================
+Przetwarzanie wyzwalaczy pakietu libc-bin (2.41-12+deb13u3)...
+Przetwarzanie wyzwalaczy pakietu man-db (2.13.1-1)...
