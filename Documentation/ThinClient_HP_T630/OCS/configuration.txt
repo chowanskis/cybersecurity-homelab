@@ -1,1 +1,4 @@
+Run the configuration script.
 
+cd /usr/share/ocsinventory-backend/tools/
+bash configure-ocsinventory-backend.sh
