@@ -64,7 +64,4 @@ echo "deb https://deb-v3.ocsinventory-ng.org/ trixie main" | tee /etc/apt/source
 
 Update:
 apt update
-
-
-
-
+apt upgrade
