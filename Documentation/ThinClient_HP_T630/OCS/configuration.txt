@@ -2,3 +2,31 @@ Run the configuration script.
 
 cd /usr/share/ocsinventory-backend/tools/
 bash configure-ocsinventory-backend.sh
+
+Removing default Nginx configuration...
+Default Nginx configuration removed.
+Select the database engine:
+
+[1] PostgreSQL
+[2] MySQL | MariaDB
+
+Choose the database engine [1|2]: 1
+Database engine configured for PostgreSQL.
+Attempting to install the PostgreSQL Python library.
+Collecting psycopg2-binary>=2.9.9 (from -r /usr/share/ocsinventory-backend/requirements_psql.txt (line 1))
+  Downloading psycopg2_binary-2.9.12-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Downloading psycopg2_binary-2.9.12-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 11.8 MB/s eta 0:00:00
+Installing collected packages: psycopg2-binary
+Successfully installed psycopg2-binary-2.9.12
+Enter the database server host: 127.0.0.1
+Enter the database server port: 5432
+Enter the database name: ocsdb
+Enter the database username: ocsuser
+Enter the database user password: ocsuser
+Configuration completed!
+Running database migrations now...
+Error during database migrations, please check /tmp/ocsinventory-backend-configuration.log for more information.
+root@ocs:/usr/share/ocsinventory-backend/tools# 
+
+I have got some problem. 
