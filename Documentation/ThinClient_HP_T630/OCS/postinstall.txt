@@ -53,4 +53,7 @@ root@ocs:~# curl -fsSL https://deb-v3.ocsinventory-ng.org/repo-signing-key.gpg |
 
 root@ocs:~# apt install curl
 
+I do not have gpg installed:
+root@ocs:~# apt install gpg
+
 
